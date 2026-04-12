@@ -1,0 +1,44 @@
+.language-toggle {
+  position: relative;
+}
+
+.language-select {
+  background: rgba(239, 235, 233, 0.2);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(239, 235, 233, 0.3);
+  border-radius: 8px;
+  padding: 0.625rem 1.25rem;
+  font-size: 1rem;
+  color: #EFEBE9;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-width: 140px;
+  font-weight: 500;
+}
+
+.language-select:hover {
+  border-color: rgba(239, 235, 233, 0.5);
+  background: rgba(239, 235, 233, 0.25);
+}
+
+.language-select:focus {
+  outline: none;
+  border-color: #EFEBE9;
+  box-shadow: 0 0 0 2px rgba(239, 235, 233, 0.2);
+  background: rgba(239, 235, 233, 0.25);
+}
+
+.language-select option {
+  background: #4E342E;
+  color: #EFEBE9;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+@media (max-width: 480px) {
+  .language-select {
+    min-width: 120px;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+}

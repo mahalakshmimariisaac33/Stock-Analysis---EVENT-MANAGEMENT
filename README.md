@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # AI Event Decor Material Analyzer
 
 A responsive React.js frontend application for analyzing event decoration materials using AI. The application allows users to upload images/videos, manually input items, view detected materials, and get voice feedback in English and Tamil.
@@ -194,10 +194,4 @@ npm run eject      # Eject from Create React App
 4. Add tests if applicable
 5. Submit a pull request
 
-## License
 
-This project is licensed under the MIT License.
-=======
-# Stock-Analysis---EVENT-MANAGEMENT
-A Stock Analysis system that helps users understand market trends, analyze stock performance, and make smarter investment decisions using financial data and price patterns.
->>>>>>> 4c92fc461c846db6d6ecc03bd18b06dcdd447ae8
